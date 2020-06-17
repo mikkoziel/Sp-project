@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const postAdressRequired = 'http://127.0.0.1:5000/?bank_data_only';
-const postAdressOptional = 'http://127.0.0.1:5000/';
+const postAdressOptional = 'https://loan-prognosticator-server.herokuapp.com/';
+const postAdressRequired = 'https://loan-prognosticator-server.herokuapp.com/?bank_data_only';
 const req = 'req';
 const opt = 'opt';
 
